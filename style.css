@@ -221,7 +221,9 @@ hr{
     justify-content: space-around;
     
 }
-
+footer ul{
+    padding: 0px;
+}
 .box{
     width: 30%;
     margin-left: 150px;
