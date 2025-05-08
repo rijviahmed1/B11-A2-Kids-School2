@@ -194,7 +194,7 @@ hr{
   }
  .popup-bar{
     position: relative;
-    bottom: 230px;
+    bottom: 250px;
     left: 100px;
     border-radius: 40px;
     padding: 20px ;
@@ -212,6 +212,39 @@ hr{
     width: 150px;
     background-color: rgb(111, 255, 0);
  }
+ footer{
+    padding: 100px 0;
+    background-color: skyblue;
+ }
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.box{
+    width: 30%;
+    margin-left: 150px;
+    color: white;
+}
+.footer-logo{
+    display: flex;
+    /* color: white; */
+}
+.box ul li{
+    list-style: none;
+    margin: 10px;
+}
+.box ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
  /* ---------- Medium Device ----------- */
  @media screen and (min-width: 577px){
     .menu-icon{
@@ -292,5 +325,19 @@ hr{
     .item-description{
         padding: 10px 20px;
     }
-
+    /* ------------------------------------- */
+    footer{
+        padding: 50px 0;
+        background-color: skyblue;
+     }
+    
+    .footer-container{
+        flex-direction: column;
+        
+    }
+    .box{
+        padding-left: 50px;
+        width: 100%;
+        margin: 0;
+    }
 }
