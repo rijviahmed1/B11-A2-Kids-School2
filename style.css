@@ -154,7 +154,7 @@ hr{
     background-image: 
                linear-gradient(
                     rgba(241, 241, 241, 0.468), 
-                    rgb(255, 200, 234)
+                    #fea1016c
                 ), 
                 url(assets/bg.png);
     text-align: center;
